@@ -43,8 +43,6 @@ class Materia:
         self.__nombre__ = nombre
 
     def obtener_objeto_alumnos(self):
-        for nombre in self.__alumnos__:
-            print(nombre.obtener_nombre())
 
         return self.__alumnos__
     

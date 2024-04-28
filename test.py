@@ -74,6 +74,13 @@ class test_alumno(unittest.TestCase):
         self.assertEqual(alumno1.__legajo__, "6006")
         self.assertEqual(alumno1.__materias__, ["Matematica", "Lengua"])
 
+    def test_obtener_cargo_nombre_legajo_alumno(self):
+        alumno1 = Alumno("6006", "Lorito", ["Matematica", "Lengua"])
+
+        self.assertEqual(alumno1.obtener_legajo(), "6006")   
+        self.assertEqual(alumno1.obtener_nombre(), "Lorito")   
+        self.assertEqual(alumno1.obtener_materias_cursando(), ["Matematica", "Lengua"]) 
+
 
 
 if __name__ == '__main__':
