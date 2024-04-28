@@ -1,4 +1,4 @@
-##----How to use it---------
+## ----How to use it---------
 
 In your terminal in the folder where you want the repo: git clone (SSH link)
 
